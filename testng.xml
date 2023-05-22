@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="chrome"/>
+            <test name="test demo">
+                <classes>
+                    <class name="testcases.SauceDemo"></class>
+                </classes>
+            </test>
+    <test name="test demo with excel data">
+        <classes>
+            <class name="testcases.SauceDemoExcel"></class>
+        </classes>
+    </test>
+</suite>
